@@ -11,9 +11,10 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
       _id: new ObjectID("5a55169e1a1bb84fe3eccee3")
     }, {
       $set: {
-        text: "Believe In Yourself Benjamin"
+        text: "Benjamin"
       }
-    }, {
+    },
+    {
       returnOriginal: true
     }).then((result) => {
       console.log(result);
