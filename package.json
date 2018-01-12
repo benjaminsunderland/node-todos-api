@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "body-parser": "^1.18.2",
-    "expect": "^22.0.6",
     "express": "^4.16.2",
     "mocha": "^4.1.0",
     "mongodb": "^2.2.33",
@@ -19,7 +18,9 @@
     "npm-watch": "^0.3.0",
     "supertest": "^3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "expect": "^1.20.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/benjaminsunderland/node-todos-api.git"
